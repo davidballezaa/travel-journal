@@ -1,18 +1,18 @@
-nav {
+.nav {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #F55A5A;
   padding: 16px;
-}
 
-.nav__logo {
-  margin-right: 8px;
-}
+  &__logo {
+    margin-right: 8px;
+  }
 
-.nav__title {
-  font-size: 15px;
-  font-weight: 500;
-  color: #FFFFFF;
-  margin: 0;
+  &__title {
+    font-size: 15px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin: 0;
+  }
 }
