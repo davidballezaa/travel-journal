@@ -35,7 +35,7 @@
 
       a {
         font-size: 14px;
-        color: #918E9B;
+        color: #918e9b;
         margin-left: 12px;
       }
     }
@@ -60,17 +60,16 @@
   }
 }
 
+@media (max-width: 500px) {
+  .card {
+    flex-direction: column;
+    &__img {
+      width: 100%;
+    }
 
-  @media(max-width: 500px){
-    .card {
-      flex-direction: column;
-      &__img {
-        width: 100%;
-      }
-
-      &__info {
-        margin: 0;
-        padding: 20px;
-      }
-      }
+    &__info {
+      margin: 0;
+      padding: 20px;
+    }
   }
+}
